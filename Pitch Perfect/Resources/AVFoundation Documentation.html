@@ -1,0 +1,3082 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+  <title>AV Foundation Framework Reference</title>
+  <link rel="stylesheet" type="text/css" href="../../../../Resources/1080/CSS/style-1.3.0.css" />
+  <link rel="stylesheet" type="text/css" href="../../../../Resources/1080/CSS/feedback-1.3.0.css" />
+  <meta charset='utf-8'> 
+<meta id="g-version" name="g-version" content="0e81551b" />
+<meta id="j-version" name="j-version" content="1.2.0" />
+<meta id="build" name="build" content="caf737f674983efba5d3128f1313b9c5" />
+<meta id="document-version" name="document-version" content="11.0.1" />
+<meta id="book-assignments" name="book-assignments" content="{Type/Reference}, {Framework/Media Layer/AVFoundation}, {Topic/Audio &amp; Video}" />
+<meta scheme="apple_ref" id="identifier" name="identifier" content="//apple_ref/doc/uid/TP40008072" />
+<meta id="chapterId" name="chapterId" content="TP40008072-CH1">
+<meta id="book-title" name="book-title" content="AV Foundation Framework Reference" />
+<meta id="book-resource-type" name="book-resource-type" content="Reference" />
+<meta id="book-root" name="book-root" content="./" />
+<meta id="book-json" name="book-json" content="book.json">
+<meta id="date" name="date" content="2014-02-11" />
+<meta id="description" name="description" content="Describes an Objective-C interface for playing, recording, and editing audio-visual assets." />
+<meta id="IndexTitle" name="IndexTitle" content="AV Foundation Framework Reference" />
+<meta id="resources-uri" name="resources-uri" content="../../../../Resources/1080">
+<link id="book-index-page" rel="Start" title="AV Foundation Framework Reference" type="text/html" href="./index.html">
+<!-- , next_chapter: next_chapter, previous_chapter: previous_chapter -->
+<link id="next-page" rel="Next" type="text/html" href="">
+<link id="previous-page" rel="Prev" type="text/html" href="">
+<meta id="devcenter" name="devcenter" content="<!-- DEVCENTER_NAME -->" />
+<meta id="devcenter-url" name="devcenter-url" content="<!-- DEVCENTER_URL -->" />
+<meta id="reflib" name="reflib" content="<!-- REFLIB_NAME -->" />
+
+<meta id="xcode-display" name="xcode-display" content="render" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta id="framework" name="framework" content="AVFoundation" />
+</head>
+
+  <body id="collection" class="jazz">
+    <div id="_omniture_top">
+<!-- SiteCatalyst code will be injected here when viewed in production -->
+</div>
+    	<a name="//apple_ref/doc/uid/TP40008072" title="AV Foundation Framework Reference"></a>
+
+    <header id="ios_header" class="hideOnPrint hideInXcode">
+  <div class="content-wrapper">
+    <p class="header-text">
+    	<a href="../../../../navigation/">iOS Developer Library
+ 		</a>
+ </p>
+    <p id="wwdr"><img id="apple_logo" src="../../../../Resources/1080/Images/apple2.png" height="14px" width="12px" aria-hidden="true" /><a href="https://developer.apple.com">Developer</a></p>
+  </div>
+</header>
+
+    <section id="valence">
+  <div class="content-wrapper">
+    <p id="hierarchial_navigation">
+      <span id="book_title">AV Foundation Framework Reference</span>
+    </p>
+    <form id="search" class="hideInXcode" method="get" action="/search/index.php" accept-charset="utf-8" autocomplete="off">
+  <input type="search" id="ssi_SearchField" placeholder="Search iOS Developer Library" name="q" autocomplete="off" tabindex="2" />
+  <input type="hidden" id='platform' name='platform' value="iOS" />
+</form>
+      
+   
+   
+
+
+
+    <img id="shortstack" src="../../../../Resources/1080/Images/shortstack_2x.png"/>
+  </div>
+</section>
+    <div class="content-wrapper">
+      <article class="chapter">
+  <a name="//apple_ref/doc/uid/TP40008072-CH1"></a><a name="//apple_ref/doc/uid/TP40008072-CH1-SW1"></a>
+  <div class="pixel-line"></div>
+
+  <h2 class='chapter-name'>AV Foundation Framework Reference</h2>
+
+  <section class="section">
+    <p class="para">
+      <a class="collection-jump" href="#classes">Classes</a><span class='spacer'> &nbsp; </span>
+      <a class="collection-jump" href="#protocols">Protocols</a><span class='spacer'> &nbsp; </span>
+      <a class="collection-jump" href="#other">Other Reference</a><span class='spacer'> &nbsp; </span>
+    </p>
+  </section>
+
+
+
+
+  <section class="section">
+  <a name="//apple_ref/doc/uid/TP40008072-CH1-SW2"></a>
+  <p class="para">
+  The AV Foundation framework provides an Objective-C interface for managing and playing audio-visual media in iOS and OS X applications. To learn more about AV Foundation, see <em class="u-book"><a href="../../../AudioVideo/Conceptual/AVFoundationPG/Articles/00_Introduction.html#//apple_ref/doc/uid/TP40010188" target="_self">AV Foundation Programming Guide</a></em>.
+</p>
+  
+</section>
+
+
+    <section class="section z-inheritance">
+      <a name="classes"></a>
+      <h3 class="section-name">Classes</h3>
+      <table class="collection-table Objective-C" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+      
+
+<tr class="z-class-node" scope="row">
+  <td class="depth2 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../../../Cocoa/Reference/Foundation/Classes/NSObject_Class/index.html#//apple_ref/occ/cl/NSObject">NSObject</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">NSObject</code> is the root class of most Objective-C class hierarchies.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAsset_Class/index.html#//apple_ref/occ/cl/AVAsset">AVAsset</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVAsset</code> is an abstract class to represent timed audiovisual media such as videos and sounds.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVComposition_Class/index.html#//apple_ref/occ/cl/AVComposition">AVComposition</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVComposition</code> object combines media data from multiple file-based sources in a custom temporal arrangement, in order to present or process media data from multiple sources together.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableComposition_Class/index.html#//apple_ref/occ/cl/AVMutableComposition">AVMutableComposition</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVMutableComposition</code> is a mutable subclass of <code class="code-voice">AVComposition</code> you use when you want to create a new composition from existing assets.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVURLAsset_Class/index.html#//apple_ref/occ/cl/AVURLAsset">AVURLAsset</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVURLAsset</code> is a concrete subclass of <code class="code-voice">AVAsset</code> that you use to initialize an asset from an URL.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetExportSession_Class/index.html#//apple_ref/occ/cl/AVAssetExportSession">AVAssetExportSession</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAssetExportSession</code> object transcodes the contents of an <code class="code-voice">AVAsset</code> source object to create an output of the form described by a specified export preset.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetImageGenerator_Class/index.html#//apple_ref/occ/cl/AVAssetImageGenerator">AVAssetImageGenerator</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAssetImageGenerator</code> object provides thumbnail or preview images of assets independently of playback.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReader_Class/index.html#//apple_ref/occ/cl/AVAssetReader">AVAssetReader</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVAssetReader</code> object to obtain media data of an asset, whether the asset is file-based or represents an assemblage of media data from multiple sources (as with an <code class="code-voice">AVComposition</code> object).
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReaderOutput_Class/index.html#//apple_ref/occ/cl/AVAssetReaderOutput">AVAssetReaderOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVAssetReaderOutput</code> is an abstract class that defines an interface for reading a single collection of samples of a common media type from an <code class="code-voice">AVAssetReader</code> object.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReaderAudioMixOutput_Class/index.html#//apple_ref/occ/cl/AVAssetReaderAudioMixOutput">AVAssetReaderAudioMixOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVAssetReaderAudioMixOutput</code> is a concrete subclass of <code class="code-voice">AVAssetReaderOutput</code> that defines an interface for reading audio samples that result from mixing the audio from one or more tracks of an <code class="code-voice">AVAssetReader</code> object's asset.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReaderSampleReferenceOutput_Class/index.html#//apple_ref/occ/cl/AVAssetReaderSampleReferenceOutput">AVAssetReaderSampleReferenceOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVAssetReaderSampleReferenceOutput</code> is a concrete subclass of the <code class="code-voice">AVAssetReaderOutput</code> class that defines an interface for reading sample references from a single <code class="code-voice">AVAssetTrack</code> of an <code class="code-voice">AVAsset</code> instance contained in an <code class="code-voice">AVAssetReader</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReaderTrackOutput_Class/index.html#//apple_ref/occ/cl/AVAssetReaderTrackOutput">AVAssetReaderTrackOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVAssetReaderTrackOutput</code> defines an interface for reading media data from a single <code class="code-voice">AVAssetTrack</code> object of an asset reader's asset.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReaderVideoCompositionOutput_Class/index.html#//apple_ref/occ/cl/AVAssetReaderVideoCompositionOutput">AVAssetReaderVideoCompositionOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVAssetReaderVideoCompositionOutput</code> is a subclass of <code class="code-voice">AVAssetReaderOutput</code> you use to read video frames that have been composited together from the frames in one or more tracks of an <code class="code-voice">AVAssetReader</code> object's asset.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetReaderOutputMetadataAdaptor_Class/index.html#//apple_ref/occ/cl/AVAssetReaderOutputMetadataAdaptor">AVAssetReaderOutputMetadataAdaptor</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetReaderOutputMetadataAdaptor</code> class defines an interface for reading metadata, packaged as instances of <code class="code-voice">AVTimedMetadataGroup</code>, from a single <code class="code-voice">AVAssetReaderTrackOutput</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetResourceLoader_Class/index.html#//apple_ref/occ/cl/AVAssetResourceLoader">AVAssetResourceLoader</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAssetResourceLoader</code> object mediates resource requests from an <code class="code-voice">AVURLAsset</code> object with a delegate object that you provide.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetResourceLoadingContentInformationRequest_Class/index.html#//apple_ref/occ/cl/AVAssetResourceLoadingContentInformationRequest">AVAssetResourceLoadingContentInformationRequest</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetResourceLoadingContentInformationRequest</code> class represents a query for essential information about a resource referenced by an asset resource loading request.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetResourceLoadingDataRequest_Class/index.html#//apple_ref/occ/cl/AVAssetResourceLoadingDataRequest">AVAssetResourceLoadingDataRequest</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      Use the  <code class="code-voice">AVAssetResourceLoadingDataRequest</code> class to request data from a resource referenced by an <code class="code-voice">AVAssetResourceLoadingRequest</code> instance.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetResourceLoadingRequest_Class/index.html#//apple_ref/occ/cl/AVAssetResourceLoadingRequest">AVAssetResourceLoadingRequest</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAssetResourceLoadingRequest</code> object encapsulates information about a resource request issued from a resource loader object.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetResourceRenewalRequest_Class/index.html#//apple_ref/occ/cl/AVAssetResourceRenewalRequest">AVAssetResourceRenewalRequest</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetResourceRenewalRequest</code> class is a subclass of <code class="code-voice">AVAssetResourceLoadingRequest</code> that encapsulates information about a resource request issued by a resource loader for the purpose of renewing a request previously issued.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetTrack_Class/index.html#//apple_ref/occ/cl/AVAssetTrack">AVAssetTrack</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAssetTrack</code> object provides provides the track-level inspection interface for all assets.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 parent last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCompositionTrack_Class/index.html#//apple_ref/occ/cl/AVCompositionTrack">AVCompositionTrack</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCompositionTrack</code> object provides the low-level representation of tracks a track in an <code class="code-voice">AVComposition</code> object, comprising a media type, a track identifier, and an array of <code class="code-voice">AVCompositionTrackSegment</code> objects, each comprising a URL, and track identifier, and a time mapping.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 last-child orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableCompositionTrack_Class/index.html#//apple_ref/occ/cl/AVMutableCompositionTrack">AVMutableCompositionTrack</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVMutableCompositionTrack</code> is a mutable subclass of <code class="code-voice">AVCompositionTrack</code> that lets you for insert, remove, and scale track segments without affecting their low-level representation (that is, the operations you perform are non-destructive on the original).
+    </p>
+  </td>
+</tr>
+ 
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetTrackGroup_Class/index.html#//apple_ref/occ/cl/AVAssetTrackGroup">AVAssetTrackGroup</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetTrackGroup</code> class encapsulates a single group of related tracks in an asset.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetTrackSegment_Class/index.html#//apple_ref/occ/cl/AVAssetTrackSegment">AVAssetTrackSegment</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAssetTrackSegment</code> object represents a segment of an <code class="code-voice">AVAssetTrack</code> object, comprising of a time mapping from the source to the asset track timeline.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCompositionTrackSegment_Class/index.html#//apple_ref/occ/cl/AVCompositionTrackSegment">AVCompositionTrackSegment</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCompositionTrackSegment</code> object represents a segment of an <code class="code-voice">AVCompositionTrack</code> object, comprising a URL, and track identifier, and a time mapping from the source track to the composition track.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetWriter_Class/index.html#//apple_ref/occ/cl/AVAssetWriter">AVAssetWriter</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVAssetWriter</code> object to write media data to a new file of a specified audiovisual container type, such as a QuickTime movie file or an MPEG-4 file, with support for automatic interleaving of media data for multiple concurrent tracks.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetWriterInput_Class/index.html#//apple_ref/occ/cl/AVAssetWriterInput">AVAssetWriterInput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVAssetWriterInput</code> to append media samples packaged as <code class="code-voice">CMSampleBuffer</code> objects (see <code class="code-voice">CMSampleBufferRef</code>), or collections of metadata, to a single track of the output file of an <code class="code-voice">AVAssetWriter</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetWriterInputMetadataAdaptor_Class/index.html#//apple_ref/occ/cl/AVAssetWriterInputMetadataAdaptor">AVAssetWriterInputMetadataAdaptor</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetWriterInputMetadataAdaptor</code> class defines an interface for writing metadata packaged as instances of <code class="code-voice">AVTimedMetadataGroup</code> to a single <code class="code-voice">AVAssetWriterInput</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetWriterInputPassDescription_Class/index.html#//apple_ref/occ/cl/AVAssetWriterInputPassDescription">AVAssetWriterInputPassDescription</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetWriterInputPassDescription</code> class defines an interface for querying information about the requirements of the current pass, such as the time ranges of media data to append.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetWriterInputPixelBufferAdaptor_Class/index.html#//apple_ref/occ/cl/AVAssetWriterInputPixelBufferAdaptor">AVAssetWriterInputPixelBufferAdaptor</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVAssetWriterInputPixelBufferAdaptor</code> to append video samples packaged as <code class="code-voice">CVPixelBuffer</code> objects to a single <code class="code-voice">AVAssetWriterInput</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAsynchronousVideoCompositionRequest_Class/index.html#//apple_ref/occ/cl/AVAsynchronousVideoCompositionRequest">AVAsynchronousVideoCompositionRequest</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAsynchronousVideoCompositionRequest</code> instance contains the information necessary for a video compositor to render an output pixel buffer.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioBuffer_Class/index.html#//apple_ref/occ/cl/AVAudioBuffer">AVAudioBuffer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioBuffer</code> class represents a buffer of audio data and its format.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioPCMBuffer_Class/index.html#//apple_ref/occ/cl/AVAudioPCMBuffer">AVAudioPCMBuffer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioPCMBuffer</code> class is a subclass of <code class="code-voice">AVAudioBuffer</code> for use with PCM audio formats.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioChannelLayout_Class/index.html#//apple_ref/occ/cl/AVAudioChannelLayout">AVAudioChannelLayout</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioChannelLayout</code> class describes the roles of a set of audio channels.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioEngine_Class/index.html#//apple_ref/occ/cl/AVAudioEngine">AVAudioEngine</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioEngine</code> class defines a group of connected <code class="code-voice">AVAudioNode</code> objects, known as audio nodes.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioEnvironmentDistanceAttenuationParameters_Class/index.html#//apple_ref/occ/cl/AVAudioEnvironmentDistanceAttenuationParameters">AVAudioEnvironmentDistanceAttenuationParameters</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioEnvironmentDistanceAttenuationParameters</code> class specifies the attenuation distance, the gradual loss in audio intensity, and characteristics.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioEnvironmentReverbParameters_Class/index.html#//apple_ref/occ/cl/AVAudioEnvironmentReverbParameters">AVAudioEnvironmentReverbParameters</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioEnvironmentReverbParameters</code> class encapsulates the parameters that you use to control the reverb of the <code class="code-voice">AVAudioEnvironmentNode</code> class.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioFile_Class/index.html#//apple_ref/occ/cl/AVAudioFile">AVAudioFile</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioFile</code> class represents an audio file that can be opened for reading or writing.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioFormat_Class/index.html#//apple_ref/occ/cl/AVAudioFormat">AVAudioFormat</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioFormat</code> class wraps a Core Audio AudioStreamBasicDescription struct, with convenience initializers and accessors for common formats, including Core Audio’s standard deinterleaved 32-bit floating point format.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioMix_Class/index.html#//apple_ref/occ/cl/AVAudioMix">AVAudioMix</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAudioMix</code> object manages the input parameters for mixing audio tracks.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableAudioMix_Class/index.html#//apple_ref/occ/cl/AVMutableAudioMix">AVMutableAudioMix</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVMutableAudioMix</code> object manages the input parameters for mixing audio tracks.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioMixInputParameters_Class/index.html#//apple_ref/occ/cl/AVAudioMixInputParameters">AVAudioMixInputParameters</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAudioMixInputParameters</code> object represents the parameters that should be applied to an audio track when it is added to a mix.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableAudioMixInputParameters_Class/index.html#//apple_ref/occ/cl/AVMutableAudioMixInputParameters">AVMutableAudioMixInputParameters</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVMutableAudioMixInputParameters</code> object represents the parameters that should be applied to an audio track when it is added to a mix.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioNode_Class/index.html#//apple_ref/occ/cl/AVAudioNode">AVAudioNode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioNode</code> class is an abstract class for an audio generation, processing, or I/O block.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioEnvironmentNode_Class/index.html#//apple_ref/occ/cl/AVAudioEnvironmentNode">AVAudioEnvironmentNode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioEnvironmentNode</code> class is a mixer node that simulates a 3D audio environment.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioIONode_Class/index.html#//apple_ref/occ/cl/AVAudioIONode">AVAudioIONode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioIONode</code> class is the base class for nodes that connects to the system's audio input or output.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioInputNode_Class/index.html#//apple_ref/occ/cl/AVAudioInputNode">AVAudioInputNode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioInputNode</code> class represents a node that connects to the system's audio input.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioOutputNode_Class/index.html#//apple_ref/occ/cl/AVAudioOutputNode">AVAudioOutputNode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioOutputNode</code> class represents a audio node that connects to the system's audio output.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioMixerNode_Class/index.html#//apple_ref/occ/cl/AVAudioMixerNode">AVAudioMixerNode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioMixerNode</code> class represents a node that mixes its inputs to a single output.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioPlayerNode_Class/index.html#//apple_ref/occ/cl/AVAudioPlayerNode">AVAudioPlayerNode</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioPlayerNode</code> class plays buffers or segments of audio files.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 parent last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnit_Class/index.html#//apple_ref/occ/cl/AVAudioUnit">AVAudioUnit</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnit</code> class is a subclass of the <code class="code-voice">AVAudioNode</code> class that, depending on the type of the audio unit, processes audio either in real-time or non real-time.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 parent orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitEffect_Class/index.html#//apple_ref/occ/cl/AVAudioUnitEffect">AVAudioUnitEffect</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAudioUnitEffect</code> class that processes audio in real-time using AudioUnits of type: effect, music effect, panner, remote effect or remote music effect.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitDelay_Class/index.html#//apple_ref/occ/cl/AVAudioUnitDelay">AVAudioUnitDelay</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitDelay</code> class is an <code class="code-voice">AVAudioUnitEffect</code> subclass that implements a delay effect.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitDistortion_Class/index.html#//apple_ref/occ/cl/AVAudioUnitDistortion">AVAudioUnitDistortion</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitDistortion</code> class is an <code class="code-voice">AVAudioUnitEffect</code> subclass that implements a multi-stage distortion effect.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitEQ_Class/index.html#//apple_ref/occ/cl/AVAudioUnitEQ">AVAudioUnitEQ</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitEQ</code> class is an <code class="code-voice">AVAudioUnitEffect</code> subclass that implements a multi-band equalizer.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 last-child orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitReverb_Class/index.html#//apple_ref/occ/cl/AVAudioUnitReverb">AVAudioUnitReverb</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitReverb</code> class is an <code class="code-voice">AVAudioUnitEffect</code> subclass that implements a reverb effect.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitGenerator_Class/index.html#//apple_ref/occ/cl/AVAudioUnitGenerator">AVAudioUnitGenerator</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitGenerator</code> is an <code class="code-voice">AVAudioUnit</code> subclass that generates audio output.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 parent orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitMIDIInstrument_Class/index.html#//apple_ref/occ/cl/AVAudioUnitMIDIInstrument">AVAudioUnitMIDIInstrument</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitMIDIInstrument</code> class is an abstract  class representing music devices or remote instruments.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 last-child orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitSampler_Class/index.html#//apple_ref/occ/cl/AVAudioUnitSampler">AVAudioUnitSampler</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitSampler</code> class encapsulates Apple's Sampler Audio Unit.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 parent last-child orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitTimeEffect_Class/index.html#//apple_ref/occ/cl/AVAudioUnitTimeEffect">AVAudioUnitTimeEffect</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitTimeEffect</code> class is an <code class="code-voice">AVAudioUnit</code> subclass that processes audio in non-realtime.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 orphan-parent orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitTimePitch_Class/index.html#//apple_ref/occ/cl/AVAudioUnitTimePitch">AVAudioUnitTimePitch</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitTimePitch</code> class is an <code class="code-voice">AVAudioUnitTimeEffect</code> subclass that provides good quality playback rate and pitch shifting independent of each other.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth6 last-child orphan-parent orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitVarispeed_Class/index.html#//apple_ref/occ/cl/AVAudioUnitVarispeed">AVAudioUnitVarispeed</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitVarispeed</code> class is an <code class="code-voice">AVAudioUnitTimeEffect</code> subclass that allows control of the playback rate.
+    </p>
+  </td>
+</tr>
+ 
+ 
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioPlayerClassReference/index.html#//apple_ref/occ/cl/AVAudioPlayer">AVAudioPlayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An instance of the <code class="code-voice">AVAudioPlayer</code> class, called an audio player, provides playback of audio data from a file or memory.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioRecorder_ClassReference/index.html#//apple_ref/occ/cl/AVAudioRecorder">AVAudioRecorder</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An instance of the <code class="code-voice">AVAudioRecorder</code> class, called an audio recorder, provides audio recording capability in your application.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioSession_ClassReference/index.html#//apple_ref/occ/cl/AVAudioSession">AVAudioSession</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An instance of the <code class="code-voice">AVAudioSession</code> class, called an audio session, is a singleton object that you employ to set the audio context for your app.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioSessionChannelDescription_class/index.html#//apple_ref/occ/cl/AVAudioSessionChannelDescription">AVAudioSessionChannelDescription</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioSessionChannelDescription</code> class provides descriptive information about a hardware channel on the current device.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioSessionDataSourceDescription_class/index.html#//apple_ref/occ/cl/AVAudioSessionDataSourceDescription">AVAudioSessionDataSourceDescription</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioSessionDataSourceDescription</code> class defines a data source for an audio input or output, providing information such as the source’s name, location and orientation.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioSessionPortDescription_class/index.html#//apple_ref/occ/cl/AVAudioSessionPortDescription">AVAudioSessionPortDescription</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAudioSessionPortDescription</code> object describes a single input or output port associated with an audio route.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioSessionRouteDescription_class/index.html#//apple_ref/occ/cl/AVAudioSessionRouteDescription">AVAudioSessionRouteDescription</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVAudioSessionRouteDescription</code> manages the input and output ports associated with the current audio route for a session.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioTime_Class/index.html#//apple_ref/occ/cl/AVAudioTime">AVAudioTime</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioTime</code> class is used by <code class="code-voice">AVAudioEngine</code> to represent time.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioUnitEQFilterParameters_Class/index.html#//apple_ref/occ/cl/AVAudioUnitEQFilterParameters">AVAudioUnitEQFilterParameters</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioUnitEQFilterParameters</code> class encapsulates the parameters used by an <code class="code-voice">AVAudioUnitEQ</code> instance.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureAudioChannel_Class/index.html#//apple_ref/occ/cl/AVCaptureAudioChannel">AVCaptureAudioChannel</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVCaptureAudioChannel</code> to monitor the average and peak power levels in an audio channel in a capture connection (see <code class="code-voice">AVCaptureConnection</code>).
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureBracketedStillImageSettings_Class/index.html#//apple_ref/occ/cl/AVCaptureBracketedStillImageSettings">AVCaptureBracketedStillImageSettings</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureBracketedStillImageSettings</code> is an abstract class that defines an interface for settings pertaining to a bracketed capture.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureAutoExposureBracketedStillImageSettings_Class/index.html#//apple_ref/occ/cl/AVCaptureAutoExposureBracketedStillImageSettings">AVCaptureAutoExposureBracketedStillImageSettings</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVCaptureAutoExposureBracketedStillImageSettings</code> class is a concrete subclass of the <code class="code-voice">AVCaptureBracketedStillImageSettings</code> class that is used when bracketing exposure target bias.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureManualExposureBracketedStillImageSettings_Class/index.html#//apple_ref/occ/cl/AVCaptureManualExposureBracketedStillImageSettings">AVCaptureManualExposureBracketedStillImageSettings</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVCaptureManualExposureBracketedStillImageSettings</code> class is a concrete subclass of the <code class="code-voice">AVCaptureBracketedStillImageSettings</code> class used when bracketing exposure duration and ISO.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureConnection_Class/index.html#//apple_ref/occ/cl/AVCaptureConnection">AVCaptureConnection</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCaptureConnection</code> object represents a connection between capture input and capture output objects associated with a capture session.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureDevice_Class/index.html#//apple_ref/occ/cl/AVCaptureDevice">AVCaptureDevice</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCaptureDevice</code> object represents a physical capture device and the properties associated with that device.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureDeviceFormat_Class/index.html#//apple_ref/occ/cl/AVCaptureDeviceFormat">AVCaptureDeviceFormat</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCaptureDeviceFormat</code> object provides information about a media capture format for use with an <code class="code-voice">AVCaptureDevice</code> instance, such as video frame rates and zoom factors.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureInput_Class/index.html#//apple_ref/occ/cl/AVCaptureInput">AVCaptureInput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureInput</code> is an abstract base-class describing an input data source to an <code class="code-voice">AVCaptureSession</code> object.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureDeviceInput_Class/index.html#//apple_ref/occ/cl/AVCaptureDeviceInput">AVCaptureDeviceInput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureDeviceInput</code> is a concrete sub-class of <code class="code-voice">AVCaptureInput</code> you use to capture data from an <code class="code-voice">AVCaptureDevice</code> object.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureInputPort_Class/index.html#//apple_ref/occ/cl/AVCaptureInputPort">AVCaptureInputPort</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCaptureInputPort</code> represents a stream of data from a capture input.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureOutput_Class/index.html#//apple_ref/occ/cl/AVCaptureOutput">AVCaptureOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureOutput</code> is an abstract base class describing an output destination of an <code class="code-voice">AVCaptureSession</code> object.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureAudioDataOutput_Class/index.html#//apple_ref/occ/cl/AVCaptureAudioDataOutput">AVCaptureAudioDataOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureAudioDataOutput</code> is a concrete sub-class of <code class="code-voice">AVCaptureOutput</code> that you use, via its delegate, to process audio sample buffers from the audio being captured.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureFileOutput_Class/index.html#//apple_ref/occ/cl/AVCaptureFileOutput">AVCaptureFileOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureFileOutput</code> is an abstract sub-class of <code class="code-voice">AVCaptureOutput</code> that describes a file output destination to an <code class="code-voice">AVCaptureSession</code>.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth5 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureMovieFileOutput_Class/index.html#//apple_ref/occ/cl/AVCaptureMovieFileOutput">AVCaptureMovieFileOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureMovieFileOutput</code> is a concrete sub-class of <code class="code-voice">AVCaptureFileOutput</code> you use to capture data to a QuickTime movie.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureMetadataOutput/index.html#//apple_ref/occ/cl/AVCaptureMetadataOutput">AVCaptureMetadataOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVCaptureMetadataOutput</code> object intercepts metadata objects emitted by its associated capture connection and forwards them to a delegate object for processing.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureStillImageOutput_Class/index.html#//apple_ref/occ/cl/AVCaptureStillImageOutput">AVCaptureStillImageOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureStillImageOutput</code> is a concrete sub class of <code class="code-voice">AVCaptureOutput</code> that you use to capture a high-quality still image with accompanying metadata.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureVideoDataOutput_Class/index.html#//apple_ref/occ/cl/AVCaptureVideoDataOutput">AVCaptureVideoDataOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureVideoDataOutput</code> is a concrete sub-class of <code class="code-voice">AVCaptureOutput</code> you use to process uncompressed frames from the video being captured, or to access compressed frames.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureSession_Class/index.html#//apple_ref/occ/cl/AVCaptureSession">AVCaptureSession</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVCaptureSession</code> object to coordinate the flow of data from AV input devices to outputs.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVFrameRateRange_Class/index.html#//apple_ref/occ/cl/AVFrameRateRange">AVFrameRateRange</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVFrameRateRange</code> object expresses a range of valid frame rates as minimum and maximum rate and minimum and maximum duration.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMIDIPlayer_Class/index.html#//apple_ref/occ/cl/AVMIDIPlayer">AVMIDIPlayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVMIDIPlayer</code> class is a player for music file formats such as MIDI and iMelody.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMediaSelectionGroup_Class/index.html#//apple_ref/occ/cl/AVMediaSelectionGroup">AVMediaSelectionGroup</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVMediaSelectionGroup</code> represents a collection of mutually exclusive options for the presentation of media within an asset.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetWriterInputGroup_Class/index.html#//apple_ref/occ/cl/AVAssetWriterInputGroup">AVAssetWriterInputGroup</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetWriterInputGroup</code> class associates tracks corresponding to inputs with each other in a mutually exclusive relationship.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMediaSelectionOption_Class/index.html#//apple_ref/occ/cl/AVMediaSelectionOption">AVMediaSelectionOption</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVMediaSelectionOption</code> object represents a specific option for the presentation of media within a group of options.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMetadataItem_Class/index.html#//apple_ref/occ/cl/AVMetadataItem">AVMetadataItem</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVMetadataItem</code> object represents an item of metadata associated with an audiovisual asset or with one of its tracks.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableMetadataItem_Class/index.html#//apple_ref/occ/cl/AVMutableMetadataItem">AVMutableMetadataItem</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVMutableMetadataItem</code> is a mutable subclass of <code class="code-voice">AVMetadataItem</code> that lets you build collections of metadata to be written to asset files using <code class="code-voice">AVAssetExportSession</code>.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMetadataItemFilter_Class/index.html#//apple_ref/occ/cl/AVMetadataItemFilter">AVMetadataItemFilter</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVMetadataItemFilter</code> class is used to filter selected information from <code class="code-voice">AVMetadataItem</code> objects.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMetadataObject_Class/index.html#//apple_ref/occ/cl/AVMetadataObject">AVMetadataObject</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVMetadataObject</code> class is an abstract class that defines the basic properties associated with a piece of metadata.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMetadataFaceObject_Class/index.html#//apple_ref/occ/cl/AVMetadataFaceObject">AVMetadataFaceObject</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVMetadataFaceObject</code> class is a concrete subclass of <code class="code-voice">AVMetadataObject</code> that defines the features of a single detected face.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMetadataMachineReadableCodeObject_Class/index.html#//apple_ref/occ/cl/AVMetadataMachineReadableCodeObject">AVMetadataMachineReadableCodeObject</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVMetadataMachineReadableCodeObject</code> class is a concrete subclass of <code class="code-voice">AVMetadataObject</code> defining the features of a detected one-dimensional or two-dimensional barcode.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVOutputSettingsAssistant_Class/index.html#//apple_ref/occ/cl/AVOutputSettingsAssistant">AVOutputSettingsAssistant</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVOutputSettingsAssistant</code> class  specifies a set of parameters for configuring objects that use output settings dictionaries—so that the resulting media file conforms to a specific criteria.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayer_Class/index.html#//apple_ref/occ/cl/AVPlayer">AVPlayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVPlayer</code> object to implement controllers and user interfaces for single- or multiple-item playback.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVQueuePlayer_Class/index.html#//apple_ref/occ/cl/AVQueuePlayer">AVQueuePlayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVQueuePlayer</code> is a subclass of <code class="code-voice">AVPlayer</code> you use to play a number of items in sequence.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItem_Class/index.html#//apple_ref/occ/cl/AVPlayerItem">AVPlayerItem</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVPlayerItem</code> represents the presentation state of an asset that’s played by an <code class="code-voice">AVPlayer</code> object, and lets you observe that state.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemAccessLog_Class/index.html#//apple_ref/occ/cl/AVPlayerItemAccessLog">AVPlayerItemAccessLog</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVPlayerItemAccessLog</code> object to retrieve the access log associated with an <code class="code-voice">AVPlayerItem</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemAccessLogEvent_Class/index.html#//apple_ref/occ/cl/AVPlayerItemAccessLogEvent">AVPlayerItemAccessLogEvent</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVPlayerItemAccessLogEvent</code> object represents a single item in an <code class="code-voice">AVPlayerItem</code> object’s access log.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemErrorLog_Class/index.html#//apple_ref/occ/cl/AVPlayerItemErrorLog">AVPlayerItemErrorLog</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVPlayerItemErrorLog</code> object to retrieve the error log associated with an <code class="code-voice">AVPlayerItem</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemErrorLogEvent_Class/index.html#//apple_ref/occ/cl/AVPlayerItemErrorLogEvent">AVPlayerItemErrorLogEvent</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVPlayerItemErrorLogEvent</code> object represents a single item in an <code class="code-voice">AVPlayerItem</code> object’s error log.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemOutput_Class/index.html#//apple_ref/occ/cl/AVPlayerItemOutput">AVPlayerItemOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemOutput</code> class is an abstract class that defines the common interface for moving samples from an asset to an <code class="code-voice">AVPlayer</code> object.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemLegibleOutput_Class/index.html#//apple_ref/occ/cl/AVPlayerItemLegibleOutput">AVPlayerItemLegibleOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemLegibleOutput</code> class is a subclass of <code class="code-voice">AVPlayerItemOutput</code> that can vend media with a legible characteristic as an attributed string.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemMetadataOutput_Class/index.html#//apple_ref/occ/cl/AVPlayerItemMetadataOutput">AVPlayerItemMetadataOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemMetadataOutput</code> class is a subclass of <code class="code-voice">AVPlayerItemOutput</code> that vends collections of metadata items carried in metadata tracks.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemVideoOutput_Class/index.html#//apple_ref/occ/cl/AVPlayerItemVideoOutput">AVPlayerItemVideoOutput</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemVideoOutput</code> lets you coordinate the output of content associated with a Core Video pixel buffer.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemTrack_Class/index.html#//apple_ref/occ/cl/AVPlayerItemTrack">AVPlayerItemTrack</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVPlayerItemTrack</code> object to modify the presentation state of an asset track (<code class="code-voice">AVAssetTrack</code>) being presented by an <code class="code-voice">AVPlayer</code> object.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerMediaSelectionCriteria_Class/index.html#//apple_ref/occ/cl/AVPlayerMediaSelectionCriteria">AVPlayerMediaSelectionCriteria</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerMediaSelectionCriteria</code> class specifies the preferred languages and media characteristics for an <code class="code-voice">AVPlayer</code> instance.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVSpeechSynthesisVoice_Ref/index.html#//apple_ref/occ/cl/AVSpeechSynthesisVoice">AVSpeechSynthesisVoice</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVSpeechSynthesisVoice</code> object defines a distinct voice for use in speech synthesis.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVSpeechSynthesizer_Ref/index.html#//apple_ref/occ/cl/AVSpeechSynthesizer">AVSpeechSynthesizer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVSpeechSynthesizer</code> class produces synthesized speech from text on an iOS device, and provides methods for controlling or monitoring the progress of ongoing speech.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVSpeechUtterance_Ref/index.html#//apple_ref/occ/cl/AVSpeechUtterance">AVSpeechUtterance</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVSpeechUtterance</code> is the basic unit of speech synthesis.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVTextStyleRule_Class/index.html#//apple_ref/occ/cl/AVTextStyleRule">AVTextStyleRule</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVTextStyleRule</code> object represents text styling rules that can be applied to text in a media item.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVTimedMetadataGroup_Class/index.html#//apple_ref/occ/cl/AVTimedMetadataGroup">AVTimedMetadataGroup</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVTimedMetadataGroup</code> object to represent a collection of metadata items.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableTimedMetadataGroup_Class/index.html#//apple_ref/occ/cl/AVMutableTimedMetadataGroup">AVMutableTimedMetadataGroup</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVMutableTimedMetadataGroup</code> object to represent a mutable collection of metadata items.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoComposition_Class/index.html#//apple_ref/occ/cl/AVVideoComposition">AVVideoComposition</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVVideoComposition</code> object represents an immutable video composition.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableVideoComposition_Class/index.html#//apple_ref/occ/cl/AVMutableVideoComposition">AVMutableVideoComposition</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVMutableVideoComposition</code> class is a mutable subclass of <code class="code-voice">AVVideoComposition</code>.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositionCoreAnimationTool_Class/index.html#//apple_ref/occ/cl/AVVideoCompositionCoreAnimationTool">AVVideoCompositionCoreAnimationTool</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      You use an <code class="code-voice">AVVideoCompositionCoreAnimationTool</code> object to incorporate Core Animation in a video composition.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositionInstruction_Class/index.html#//apple_ref/occ/cl/AVVideoCompositionInstruction">AVVideoCompositionInstruction</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVVideoCompositionInstruction</code> object represents an operation to be performed by a compositor.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableVideoCompositionInstruction_Class/index.html#//apple_ref/occ/cl/AVMutableVideoCompositionInstruction">AVMutableVideoCompositionInstruction</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVMutableVideoCompositionInstruction</code> object represents an operation to be performed by a compositor.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositionLayerInstruction_Class/index.html#//apple_ref/occ/cl/AVVideoCompositionLayerInstruction">AVVideoCompositionLayerInstruction</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      An <code class="code-voice">AVVideoCompositionLayerInstruction</code> object represents the transform, opacity, and cropping ramps to apply to a given track.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth4 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVMutableVideoCompositionLayerInstruction_Class/index.html#//apple_ref/occ/cl/AVMutableVideoCompositionLayerInstruction">AVMutableVideoCompositionLayerInstruction</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVMutableVideoCompositionLayerInstruction</code> is a mutable subclass of <code class="code-voice">AVVideoCompositionLayerInstruction</code> that is used to modify the transform, cropping, and opacity ramps to apply to a given track in a composition.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 last-child">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositionRenderContext_Class/index.html#//apple_ref/occ/cl/AVVideoCompositionRenderContext">AVVideoCompositionRenderContext</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVVideoCompositionRenderContext</code> class defines the context within which custom compositors render new output pixels buffers.
+    </p>
+  </td>
+</tr>
+ 
+ 
+      
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth2 parent last-child orphan-grandparent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../../../GraphicsImaging/Reference/CALayer_class/index.html#//apple_ref/occ/cl/CALayer">CALayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">CALayer</code> class manages image-based content and allows you to perform animations on that content.
+    </p>
+  </td>
+</tr>
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureVideoPreviewLayer_Class/index.html#//apple_ref/occ/cl/AVCaptureVideoPreviewLayer">AVCaptureVideoPreviewLayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVCaptureVideoPreviewLayer</code> is a subclass of <code class="code-voice">CALayer</code> that you use to display video as it is being captured by an input device.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerLayer_Class/index.html#//apple_ref/occ/cl/AVPlayerLayer">AVPlayerLayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVPlayerLayer</code> is a subclass of <code class="code-voice">CALayer</code> to which an <code class="code-voice">AVPlayer</code> object can direct its visual output.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVSampleBufferDisplayLayer_Class/index.html#//apple_ref/occ/cl/AVSampleBufferDisplayLayer">AVSampleBufferDisplayLayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVSampleBufferDisplayLayer</code> class is a subclass of <code class="code-voice">CALayer</code> that displays compressed or uncompressed video frames.
+    </p>
+  </td>
+</tr>
+ 
+  
+
+
+
+<tr class="z-class-node" scope="row">
+  <td class="depth3 last-child orphan-parent">
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVSynchronizedLayer_Class/index.html#//apple_ref/occ/cl/AVSynchronizedLayer">AVSynchronizedLayer</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      <code class="code-voice">AVSynchronizedLayer</code> a subclass of <code class="code-voice">CALayer</code> with layer timing that synchronizes with a specific <code class="code-voice">AVPlayerItem</code>.
+    </p>
+  </td>
+</tr>
+ 
+ 
+  </tbody> 
+</table>
+
+    </section>
+
+    <section class="section z-protocol">
+      <a name="protocols"></a>
+      <h3 class="section-name">Protocols</h3>
+      <table class="collection-table Objective-C" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAssetResourceLoaderDelegate_Protocol/index.html#//apple_ref/occ/intf/AVAssetResourceLoaderDelegate">AVAssetResourceLoaderDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAssetResourceLoaderDelegate</code> protocol defines a method that lets your code handle resource loading requests coming from an <code class="code-voice">AVURLAsset</code> object.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAsynchronousKeyValueLoading_Protocol/index.html#//apple_ref/occ/intf/AVAsynchronousKeyValueLoading">AVAsynchronousKeyValueLoading</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAsynchronousKeyValueLoading</code> protocol defines methods that let you use an <code class="code-voice">AVAsset</code> or <code class="code-voice">AVAssetTrack</code> object without blocking a thread.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudio3DMixing_Protocol/index.html#//apple_ref/occ/intf/AVAudio3DMixing">AVAudio3DMixing</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudio3DMixing</code> protocol defines 3D mixing properties.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioMixing_Protocol/index.html#//apple_ref/occ/intf/AVAudioMixing">AVAudioMixing</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioMixing</code> protocol defines properties applicable to the input bus of a mixer node.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioPlayerDelegateProtocolReference/index.html#//apple_ref/occ/intf/AVAudioPlayerDelegate">AVAudioPlayerDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The delegate of an <code class="code-voice">AVAudioPlayer</code> object must adopt the <code class="code-voice">AVAudioPlayerDelegate</code> protocol.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioRecorderDelegate_ProtocolReference/index.html#//apple_ref/occ/intf/AVAudioRecorderDelegate">AVAudioRecorderDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The delegate of an <code class="code-voice">AVAudioRecorder</code> object must adopt the <code class="code-voice">AVAudioRecorderDelegate</code> protocol.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioSessionDelegate_ProtocolReference/index.html#//apple_ref/occ/intf/AVAudioSessionDelegate">AVAudioSessionDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The use of this protocol is deprecated in iOS 6 and later.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVAudioStereoMixing_Protocol/index.html#//apple_ref/occ/intf/AVAudioStereoMixing">AVAudioStereoMixing</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVAudioStereoMixing</code> protocol defines stereo mixing properties used by mixers.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureAudioDataOutputSampleBufferDelegate_Protocol/index.html#//apple_ref/occ/intf/AVCaptureAudioDataOutputSampleBufferDelegate">AVCaptureAudioDataOutputSampleBufferDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The delegate of an <code class="code-voice">AVCaptureAudioDataOutputSampleBuffer</code> object must adopt the <code class="code-voice">AVCaptureAudioDataOutputSampleBufferDelegate</code> protocol.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureFileOutputRecordingDelegate_Protocol/index.html#//apple_ref/occ/intf/AVCaptureFileOutputRecordingDelegate">AVCaptureFileOutputRecordingDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      Defines an interface for delegates of <code class="code-voice">AVCaptureFileOutput</code> to respond to events that occur in the process of recording a single file.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureMetadataOutputObjectsDelegate_Protocol/index.html#//apple_ref/occ/intf/AVCaptureMetadataOutputObjectsDelegate">AVCaptureMetadataOutputObjectsDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVCaptureMetadataOutputObjectsDelegate</code> protocol must be adopted by the delegate of an <code class="code-voice">AVCaptureMetadataOutput</code> object .
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVCaptureVideoDataOutputSampleBufferDelegate_Protocol/index.html#//apple_ref/occ/intf/AVCaptureVideoDataOutputSampleBufferDelegate">AVCaptureVideoDataOutputSampleBufferDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      This protocol defines an interface for delegates of an <code class="code-voice">AVCaptureVideoDataOutput</code> object to receive captured video sample buffers and be notified of late sample buffers that were dropped.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemLegibleOutputPushDelegate_Protocol/index.html#//apple_ref/occ/intf/AVPlayerItemLegibleOutputPushDelegate">AVPlayerItemLegibleOutputPushDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemLegibleOutputPushDelegate</code> protocol extends the <code class="code-voice">AVPlayerItemOutputPushDelegate</code> protocol to provide additional methods specific to attributed string output.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemMetadataOutputPushDelegate_Protocol/index.html#//apple_ref/occ/intf/AVPlayerItemMetadataOutputPushDelegate">AVPlayerItemMetadataOutputPushDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemMetadataOutputPushDelegate</code> protocol extends the <code class="code-voice">AVPlayerItemOutputPushDelegate</code> protocol to provide additional methods specific to metadata output.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemOutputPullDelegate_Protocol/index.html#//apple_ref/occ/intf/AVPlayerItemOutputPullDelegate">AVPlayerItemOutputPullDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemOutputPullDelegate</code> protocol defines the methods that are called by an <code class="code-voice">AVPlayerItemVideoOutput</code> object in response to pixel buffer changes.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVPlayerItemOutputPushDelegate_Protocol/index.html#//apple_ref/occ/intf/AVPlayerItemOutputPushDelegate">AVPlayerItemOutputPushDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVPlayerItemOutputPushDelegate</code> protocol defines common delegate methods for objects participating in <code class="code-voice">AVPlayerItemOutput</code> push sample output acquisition.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVSpeechSynthesizerDelegate_Ref/index.html#//apple_ref/occ/intf/AVSpeechSynthesizerDelegate">AVSpeechSynthesizerDelegate</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVSpeechSynthesizerDelegate</code> protocol defines methods that the delegate of an <code class="code-voice">AVSpeechSynthesizer</code> object may implement; all methods in this protocol are optional.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositing_Protocol/index.html#//apple_ref/occ/intf/AVVideoCompositing">AVVideoCompositing</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVVideoCompositing</code> protocol defines properties and methods that custom video compositors must implement.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositionInstruction_Protocol/index.html#//apple_ref/occ/intf/AVVideoCompositionInstruction">AVVideoCompositionInstruction</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVVideoCompositionInstruction</code> protocol represents operations to be performed by a compositor.
+    </p>
+  </td>
+</tr>
+ 
+      <tr class="z-protocol-node" scope="row">
+  <td>
+    <p class="para">
+      <code class="code-voice">
+        <a href="../AVVideoCompositionValidationHandling_Protocol/index.html#//apple_ref/occ/intf/AVVideoCompositionValidationHandling">AVVideoCompositionValidationHandling</a>
+      </code>
+    </p>
+  </td>
+  <td>
+    <p class="para">
+      The <code class="code-voice">AVVideoCompositionValidationHandling</code> protocol declares methods that you can implement in the delegate of an <code class="code-voice">AVVideoComposition</code> object to indicate whether validation of a video composition should continue after specific errors have been found.
+    </p>
+  </td>
+</tr>
+ 
+  </tbody>
+</table>
+
+    </section>
+
+
+    <section class="section z-other">
+      <a name="other"></a>
+      <h3 class="section-name">Other Reference</h3>
+      <table class="collection-table" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+      <tr><td scope="row"><p class="para"><em class="u-book"><a href="../AVFoundationAudioSettings_Constants/index.html#//apple_ref/doc/uid/TP40009937" target="_self">AV Foundation Audio Settings Constants</a></em>
+</p></td></tr>
+      <tr><td scope="row"><p class="para"><em class="u-book"><a href="../AVFoundation_Constants/index.html#//apple_ref/doc/uid/TP40009539" target="_self">AV Foundation Constants Reference</a></em>
+</p></td></tr>
+      <tr><td scope="row"><p class="para"><em class="u-book"><a href="../AVFoundation_ErrorConstants/index.html#//apple_ref/doc/uid/TP40009935" target="_self">AV Foundation Error Constants</a></em>
+</p></td></tr>
+      <tr><td scope="row"><p class="para"><em class="u-book"><a href="../AVFoundationMetadataKeyReference/index.html#//apple_ref/doc/uid/TP40012232" target="_self">AV Foundation Metadata Key Constants Reference</a></em>
+</p></td></tr>
+      <tr><td scope="row"><p class="para"><em class="u-book"><a href="../AVFoundation_Functions/index.html#//apple_ref/doc/uid/TP40009540" target="_self">AV Foundation Functions Reference</a></em>
+</p></td></tr>
+  </tbody>
+</table>
+
+    </section>
+
+  <section id="next_previous" class="">
+    <p class="copyright">Copyright &#x00a9; 2015 Apple Inc. All rights reserved. <a class="link" href="http://www.apple.com/legal/terms/site.html" target="_blank" rel='external'>Terms of Use</a> | <a class="link" href="http://www.apple.com/privacy/" target="_blank" rel='external'>Privacy Policy</a> | <a href="RevisionHistory.html#//apple_ref/doc/uid/TP40008072-CH2-SW1" data-id="//apple_ref/doc/uid/TP40008072-CH2-SW1">Updated: 2014-02-11</a>
+    </p>
+  </section>
+</article>
+    </div>
+
+    <footer id="footer">
+  <div class="content-wrapper">
+  	<div id="leave_feedback" class="button" role="button" tabindex="0">Feedback</div>
+  </div>
+  <script src="../../../../Resources/1080/JavaScript/devpubs-1.3.0.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../../../Resources/1080/JavaScript/feedback-1.3.0.js" type="text/javascript" charset="utf-8"></script>
+</footer>
+
+  </body>
+      <div id="blackout">
+    <div id="preload"></div>
+</div>
+<div id="modal" aria-hidden="true">
+    <div id="closebox" tabindex="0" aria-label="Close feedback form" role="button"></div>
+    <div id="sending" class="hidden">
+        <h2 tabindex="0">Sending feedback&hellip;</h2>
+        <div id="sending_img"></div>
+    </div>
+    <div id="error" class="hidden">
+        <h2 tabindex="0">We&rsquo;re sorry, an error has occurred.</h2>
+        <p>Please try submitting your feedback later.</p>
+        <div id="error_icon"></div>
+    </div>
+    <div id="success" class="hidden">
+        <h2 tabindex="0">Thank you for providing feedback!</h2>
+        <p>Your input helps improve our developer documentation.</p>
+        <div id="thank_you_icon"></div>
+    </div>
+    
+    <form id="feedback" action="#" method="post">
+        <div class="left-leaf">
+            <h2 id="helpful_title" data-asterisk="a1" tabindex="0">How helpful is this document?</h2>     
+            <sup id="a1" class="asterisk" aria-hidden="true">*</sup>
+
+            <div id="star_group" role="radiogroup" aria-required="true">
+                <label> 
+                    <input class="radio" type="radio" name="helped" value="1" /> 
+                    Very helpful
+                </label>
+                <label> 
+                    <input class="radio" type="radio" name="helped" value="2" /> 
+                    Somewhat helpful
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="helped" value="3" /> 
+                    Not helpful
+                </label>
+            </div>
+        </div>
+        <div class="right-leaf">
+            <h2>How can we improve this document?</h2>
+            <div id="improve" class="checkboxes">
+                <label>
+                    <input type="checkbox" name="typo" /> 
+                    Fix typos or links
+                </label>
+                <label>
+                    <input type="checkbox" name="infoIncorrect" /> 
+                    Fix incorrect information
+                </label>
+                <label>
+                    <input type="checkbox" name="needs_examples" /> 
+                    Add or update code samples
+                </label>
+                <label>
+                    <input type="checkbox" name="needs_art" /> 
+                    Add or update illustrations
+                </label>
+                <label>
+                    <input type="checkbox" name="missingInfo" /> 
+                    Add information about...
+                </label>
+            </div>
+        </div>
+
+        <textarea id="comment" name="problem" cols="70" rows="8" placeholder="Please tell us more about your experience with this document" data-asterisk="a2" required></textarea>
+        <sup id="a2" class="asterisk" aria-hidden="true">*</sup>
+
+        <input id="email" type="email" name="email" placeholder="Email (optional)" size="48">
+
+        <p class="fineprint">
+            <em aria-hidden="true"><span>*</span> Required information</em>
+        </p> 
+
+        <input id="submit" type="button" value="Send" />
+
+        <section id="legal">
+            <p>
+                To submit a product bug or enhancement request, please visit the 
+                <a href="https://developer.apple.com/bugreporter/" target="_blank">Bug Reporter</a> 
+                page.
+            </p>
+            <p>
+                Please read <a href="http://www.apple.com/legal/policies/ideas.html" target="_blank">Apple's Unsolicited Idea Submission Policy</a> 
+                before you send us your feedback.
+            </p> 
+        </section>
+    </form>
+</div>
+
+</div>
+<script type="text/javascript" src="/library/webstats/pagetracker.js"></script>
+<script type="text/javascript">
+if(typeof PageTracker !== 'undefined') {
+  if(window.addEventListener) {
+    window.addEventListener("load", function(){PageTracker.logPageLoad()},false);
+  } else if(window.attachEvent) {
+    window.attachEvent("onload",function(){PageTracker.logPageLoad()});
+  }
+}
+</script>
+</html>
